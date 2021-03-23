@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="css/my.css"/>
     <title>HappyBirthday</title>
     <script type="text/javascript">
+	if (confirm("Wanna see diary?")) {
+	    location.href='/diary.html'
+	}
         if (window.screen.height <= 500) {
             document.write('<meta name="viewport" content="initial-scale=0.43,maximum-scale=0.43,minimum-scale=0.43" />');
         } else {
